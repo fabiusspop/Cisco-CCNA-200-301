@@ -1,0 +1,85 @@
+Its seven-layered approach to data transmission divides the operations into specific related groups of actions at each layer.	OSI Model
+It is a protocol stack that consists of multiple protocols including TCP (Transmission Control Protocol) and IP (Internet Protocol).	TCP/IP Stack
+Which OSI layer provides network services to the applications of the user?	Application Layer
+The OSI [...] layer ensures that the information that is sent at the application layer of one system is readable by the application layer of another system.	The OSI presentation layer ensures that the information that is sent at the application layer of one system is readable by the application layer of another system.
+The OSI [...] layer establishes, manages, and terminates sessions between two communicating hosts.	The OSI session layer establishes, manages, and terminates sessions between two communicating hosts.
+Which OSI layer defines the specifications needed for activating, maintaining, and deactivating the physical link between end devices?	Physical Layer
+The OSI [...] layer defines how data is formatted for transmission and how access to physical media is controlled.	The OSI data link layer defines how data is formatted for transmission and how access to physical media is controlled.
+This OSI layer defines services to segment, transfer and reassemble the data for individual communications between the end devices.	Transport Layer
+This OSI layer provides connectivity and path selection between two host systems that may be located on geographically separated networks.	Network Layer
+The Cisco operating system used on the majority of Cisco enterprise grade network devices.	IOS (Internetworking Operating System)
+Where is the IOS operating system image stored?	Flash
+Where is the startup configuration is stored?	NVRAM
+This command drops you back to the Privileged Exec mode from any level.	end
+The [...] command drops you back down a level in the Cisco IOS CLI.	The exit command drops you back down a level in the Cisco IOS CLI.
+What cable will you use for a direct connection to the console port on the router or switch?	Console Cable
+The [...] is loaded into RAM from the startup config when the device boots up.	The Running Configuration is loaded into RAM from the startup config when the device boots up.
+What Cisco IOS command line mode is 'Router>' in?	User Exec mode
+"'Router(config)#' is in [...] mode."	"'Router(config)#' is in Global Configuration mode."
+The [...] command is entered to access the Global Configuration mode from the Privileged Exec mode.	The configure terminal command is entered to access the Global Configuration mode from the Privileged Exec mode.
+"What Cisco IOS command line mode is 'Router(config-if)#' in?"	Interface Configuration mode
+The [...] is the configuration that will go into effect when the router is next started or rebooted.	The startup configuration is the configuration that will go into effect when the router is next started or rebooted.
+Commands that are entered in the running configuration do not get saved permanently until you explicitly copy them from the [...] to the [...].	Commands that are entered in the running configuration do not get saved permanently until you explicitly copy them from the running configuration to the startup configuration.
+This command is used to go to the Privileged Exec mode from the User Exec mode.	enable
+"'Router#' is in Cisco IOS [...] mode."	"'Router#' is in Cisco IOS Privileged Exec mode."
+This command makes the running configuration persistent across reboot.	copy running-config startup-config or copy run start
+The running configuration is stored in the [...].	The running configuration is stored in the RAM.
+The 'show' and 'debug' commands are entered in [...] mode.	The 'show' and 'debug' commands are entered in privileged exec mode.
+The 'show' command that displays the entire running configuration on the router.	show running-config or show run
+The process of adjusting the flow of data from the sender to ensure that the receiving host can handle all of it.	Flow Control
+The process by which a host is able to support multiple sessions simultaneously and manage the individual traffic streams over a single link.	Session Multiplexing
+The combination of source and [...] port numbers can be used to track sessions.	The combination of source and destination port numbers can be used to track sessions.
+The combination of [...] and destination port numbers can be used to track sessions.	The combination of source and destination port numbers can be used to track sessions.
+This OSI layer provides transparent transfer of data between hosts and is responsible for end-to-end error recovery and flow control.	Transport Layer
+The most common Layer 4 protocols are [...] and UDP.	The most common Layer 4 protocols are TCP and UDP.
+The most common Layer 4 protocols are TCP and [...].	The most common Layer 4 protocols are TCP and UDP.
+HTTP uses port [...].	HTTP uses port 80.
+SMTP email uses port [...].	SMTP email uses port 25.
+Which transport layer protocol is used by TFTP?	UDP
+What does the acronym UDP stand for?	User Datagram Protocol
+Which transport layer protocol sends traffic best effort? TCP or UDP?	UDP
+This transport layer protocol carries out sequencing to ensure segments are processed in the correct order and none are missing.	TCP
+Which transport layer protocol is connection oriented? TCP or UDP?	TCP
+This transport layer protocol does not carry out sequencing to ensure segments are processed in the correct order and none are missing.	UDP
+Which transport layer protocol is not reliable, meaning the receiving host does not send acknowledgments back to the sender?	UDP
+Which transport layer protocol does not perform flow control? TCP or UDP?	UDP
+Which transport layer protocol is reliable where lost segments are resent? TCP or UDP?	TCP
+Which transport layer protocol is used by Telnet?	TCP
+	Toggle Masks
+This OSI layer is responsible for routing packets to their destination and for Quality of Service.	Network Layer
+IP stands for [...].	IP stands for Internet Protocol.
+Electrical impulses are either off or on, so there are only two binary choices, [...] or [...].	Electrical impulses are either off or on, so there are only two binary choices, 0 or 1.
+159 is [...] in binary.	159 is 1001 1111 in binary.
+What is 1100 1011 in decimal?	203
+An IPv4 address is [...] bits long.	An IPv4 address is 32 bits long.
+What is 255.255.192.0 in slash notation?	/18
+What is /27 in dotted decimal notation?	255.255.255.224
+255.248.0.0 is [...] in slash notation	255.248.0.0 is /13 in slash notation
+The [...] portion of the IP address specifies the individual host and must be unique on that subnet.	The host portion of the IP address specifies the individual host and must be unique on that subnet.
+A host’s IP address is divided into a [...] portion and a host portion.	A host’s IP address is divided into a network portion and a host portion.
+A host’s IP address is divided into a network portion and a [...] portion.	A host’s IP address is divided into a network portion and a host portion.
+The subnet mask is 32 bits long, and can be written in dotted decimal or [...].	The subnet mask is 32 bits long, and can be written in dotted decimal or slash notation.
+The subnet mask is 32 bits long, and can be written in [...] or slash notation.	The subnet mask is 32 bits long, and can be written in dotted decimal or slash notation.
+This defines the boundary between the IP address network portion and host portion.	Subnet Mask
+Traffic with this as destination address will be sent to all hosts in the subnet.	Broadcast Address
+"All ""0""s in the host portion designates the [...] address which is not allowed to be allocated to a host."	"All ""0""s in the host portion designates the network address which is not allowed to be allocated to a host."
+The global coordination of Internet IPv4 addressing is performed by [...].	The global coordination of Internet IPv4 addressing is performed by IANA (Internet Assigned Numbers Authority).
+This address class is reserved for IP multicast addresses.	Class D
+This address class is ‘experimental and reserved for future use’.	Class E
+This address class is assigned to networks with a very large number of hosts.	Class A
+What is the default subnet mask of Class A addresses?	/8
+Class A valid network addresses range from [...] to [...]	Class A valid network addresses range from 1.0.0.0 to 126.0.0.0 /8  0.0.0.0/8 and 127.0.0.0/8 are reserved (RFC 870).
+The network [...] in the Class A space is reserved for loopback address used for testing the local computer.	The network 127.0.0.0 /8 in the Class A space is reserved for loopback address used for testing the local computer.
+What does IANA stand for?	Internet Assigned Numbers Authority
+This address class is assigned to medium-sized to large-sized networks.	Class B
+The default subnet mask of Class B addresses is [...].	The default subnet mask of Class B addresses is /16.
+What is the valid network address range of Class B?	128.0.0.0 to 191.255.0.0 /16
+This address class is used for small networks.	Class C
+The default subnet mask of Class C addresses is [...].	The default subnet mask of Class C addresses is /24.
+The valid network address of Class C range from [...] to [...]	The valid network address of Class C range from 192.0.0.0 to 223.255.255.0 /24
+These addresses are valid to be assigned to hosts but they are not routable on the public internet.	(RFC 1918) Private Addresses
+What is the Class A private IP address range?	10.0.0.0 to 10.255.255.255
+What is the Class B private IP address range?	172.16.0.0 to 172.31.255.255
+What is the Class C private IP address range?	192.168.0.0 to 192.168.255.255
+What is the Class E IP address range?	240.0.0.0 to 255.255.255.255
+Class D IP addresses range from [...] to [...]	Class D IP addresses range from 224.0.0.0 to 239.255.255.255
